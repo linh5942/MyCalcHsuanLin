@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     var lastButtonWasMode:Bool = false
     
     
+    
     @IBOutlet weak var CalcLabel: UILabel!
     
     
