@@ -58,6 +58,8 @@ class ViewController: UIViewController {
     }
     
     
+
+    
     
     @IBAction func PressedClear(_ sender: UIButton) {
         labelString = "0"
@@ -85,6 +87,7 @@ class ViewController: UIViewController {
         else if(currentMode == .multiplication) {
             savedNum *= labelInt
         }
+
         currentMode = .not_set
         labelString = "\(savedNum)"
         updateText()
